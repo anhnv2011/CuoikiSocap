@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     let mainView: MainView = {
         let mainview = MainView()
+        mainview.clipsToBounds = true
         return mainview
     }()
     let imageview: UIImageView = {
@@ -80,8 +81,8 @@ class ViewController: UIViewController {
         avatarImage.frame = CGRect(x: menuButton.left - width - 10 , y: safeTop, width: width, height: width)
         avatarImage.circle()
         ringButton.frame = CGRect(x: avatarImage.left - width - 10, y: safeTop, width: width, height: height)
-        mainView.frame = CGRect(x: 10, y: 200 , width: view.frame.width - 20, height: view.height - 220)
-        mainView.layer.cornerRadius = 30
+        mainView.frame = CGRect(x: 10, y: 150, width: view.frame.width - 20, height: view.height - 170)
+        mainView.layer.cornerRadius = 50
        
 
     }

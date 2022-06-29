@@ -11,7 +11,7 @@ class MainView: UIView {
 
     let backgroundImageView: UIImageView = {
         let image = UIImageView ()
-        image.image = UIImage(named: "housess")
+        image.image = UIImage(named: "housess2")
         image.contentMode = .scaleToFill
         return image
     }()
