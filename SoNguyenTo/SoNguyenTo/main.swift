@@ -20,9 +20,7 @@ var currentNumber = 0
 
 for i in 0...n{
     currentNumber = i
-
     var counter = 0
-  
     if currentNumber > 1{
         array.append(currentNumber)
         for j in array{
@@ -35,7 +33,6 @@ for i in 0...n{
         }
     }
 }
-
     return songuyentoArr
 }
 print(insonguyento(n: n))
